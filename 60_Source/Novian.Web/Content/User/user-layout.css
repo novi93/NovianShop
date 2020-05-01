@@ -1,0 +1,96 @@
+﻿/*common*/
+section {
+      background: none;
+}
+div#full-width {
+    position: relative;
+    font-family: 'Segoe UI';
+    /*font-weight: bold;*/
+}
+/*header*/
+/*register*/
+.register-login {
+    float: right;
+    margin-top: -1%;
+}
+
+    .register-login a:hover {
+        text-decoration: none;
+        color: blue;
+    }
+/*phone number*/
+.header-phone {
+    float: left;
+    margin-top: -1%;
+}
+/*navigator*/
+#nav-panel {
+    height: 32px;
+}
+
+.nav-bar {
+    float: right;
+    margin-right: 10%;
+}
+
+    .nav-bar li {
+        list-style: none;
+        display: inline;
+        border-right: solid 1px rgba(0,0,0,.1);
+        padding: 19px 20px 22px 20px;
+        -webkit-transition: all .5s ease-out;
+        -moz-transition: all .5s ease-out;
+        -ms-transition: all .5s ease-out;
+    }
+
+        .nav-bar li:hover {
+            background-color: rgba(0,0,0,.5);
+            -webkit-transition: all .5s ease-out;
+            -moz-transition: all .5s ease-out;
+            -ms-transition: all .5s ease-out;
+        }
+
+        .nav-bar li a {
+            text-decoration: none;
+        }
+
+#txtSearch {
+    float: left;
+    margin-left: 5%;
+}
+
+    #txtSearch input {
+        height: 0;
+    }
+
+#div-btnSearch button {
+    padding: 0px 2px;
+    margin-right: -44px;
+    background: #14a19a;
+    vertical-align: middle;
+}
+
+    #div-btnSearch button:hover {
+        background-color: rgba(0,0,0,.5);
+    }
+
+#div-btnSearch img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+/*menu left*/
+#menu-left {
+    float: left;
+}
+/*slider*/
+#slider {
+    float: right;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+}
+
+    #slider img {
+        text-align: center;
+    }

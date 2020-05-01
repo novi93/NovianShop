@@ -1,0 +1,20 @@
+﻿@using Novian.Model.Entity;
+@model List<Novian.Model.Entity.Product>
+
+
+
+<h1 class="item-header">Hàng mới về</h1>
+@{foreach (var item in Model)
+{
+    <div class="activity-list-update">
+        <img src="" alt="Image">
+        <p>
+            <strong>@item.Name</strong>
+            <a href="#">Mua ngay</a>.
+        </p>
+        <div class="clear"></div>
+    </div>
+}}
+<a href="#" class="item-footer green">
+    See all activity
+</a>
